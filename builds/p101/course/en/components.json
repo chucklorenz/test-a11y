@@ -1,0 +1,51 @@
+[
+    {
+        "_id": "c-05",
+        "_parentId": "b-05",
+        "_type": "component",
+        "_component": "accordion",
+        "_classes": "",
+        "_layout": "full",
+        "title": "title",
+        "displayTitle": "title",
+        "body": "body",
+        "instruction": "instruction",
+        "_items": [
+            {
+                "title": "With br and no p",
+                "body": "This is the first section. It has words styled with <b>bold, </b><i>italics, </i><u>underline, </u><s>strike-through, </s><strong>strong, </strong> and <em>emphasis.</em><br><br><span style='font-weight: bold'>These three words</span> in this second section have been styled with a span and style attribute.<br><br>This third section contains a short list.<br><br><ul><li>Item 1</li><li>Item 2</li></ul> The following is a US mailing address that uses closed and unclosed br tags:<br/>Chuck Lorenz<br>1038 W Monroe St<br />Chicago IL 60607"
+            },
+            {
+                "title": "with p and no br",
+                "body": "<p>This is the first section. It has words styled with <b>bold, </b><i>italics, </i><u>underline, </u><s>strike-through, </s><strong>strong, </strong> and <em>emphasis.</em></p><p><span style='font-weight: bold'>These three words</span> in this second section have been styled with a span and style attribute.</p><p>This third section contains a short list.</p><ul><li>Item 1</li><li>Item 2</li></ul><div>This is a DIV that links to <a href='https://adaptlearning.org'>the Adapt community site</a></div>"
+            },
+            {
+                "title": "with p and with br",
+                "body": "<p>This is the first section. It has words styled with <b>bold, </b><i>italics, </i><u>underline, </u><s>strike-through, </s><strong>strong, </strong> and <em>emphasis.</em></p><p><span style='font-weight: bold'>These three words</span> in this second section have been styled with a span and style attribute.<br><br>This third section contains a short list.</p><ul><li>Item 1</li><li>Item 2</li></ul> The following is a US mailing address that uses closed and unclosed br tags:<br/>Chuck Lorenz<br>1038 W Monroe St<br />Chicago IL 60607"
+            },
+            {
+                "title": "control: formatting style alone",
+                "body": "This is the first section. It has words styled with <b>bold, </b><i>italics, </i><u>underline, </u>and <s>strike-through.</s>"
+            },
+            {
+                "title": "control: formatting style and semantic style",
+                "body": "This is the first section. It has words styled with <b>bold, </b><i>italics, </i><u>underline, </u><s>strike-through, </s><strong>strong, </strong> and <em>emphasis.</em>"
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-10",
+        "_parentId": "b-10",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "full",
+        "title": "componentId",
+        "displayTitle": "title",
+        "body": "body",
+        "instruction": "instruction"
+    }
+]

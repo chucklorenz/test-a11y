@@ -1,0 +1,11 @@
+define([
+	"extensions/adapt-contrib-pageLevelProgress/js/adapt-contrib-pageLevelProgress",
+	"extensions/adapt-contrib-resources/js/adapt-contrib-resources",
+	"extensions/adapt-contrib-spoor/js/adapt-contrib-spoor",
+	"extensions/adapt-contrib-trickle/js/adapt-contrib-trickle",
+	"extensions/adapt-contrib-tutor/js/adapt-contrib-tutor",
+	"components/adapt-contrib-accordion/js/adapt-contrib-accordion",
+	"components/adapt-contrib-text/js/adapt-contrib-text",
+	"menu/adapt-contrib-boxmenu/js/adapt-contrib-boxmenu",
+	"theme/adapt-contrib-vanilla/js/vanilla"
+],function(){});
