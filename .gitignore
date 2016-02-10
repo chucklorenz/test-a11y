@@ -1,4 +1,4 @@
-buildkit
+buildkit/
 .DS_Store
 .idea
 rub-check.log
